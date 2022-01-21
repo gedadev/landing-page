@@ -168,3 +168,49 @@ ul {
     font-size: 20px;
     font-weight: 900;
 }
+
+/* Call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    width: 1000px;
+    display: flex;
+    margin: 100px 0;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-text {
+    color: #E5E7EB;
+    width: 600px;
+    flex-grow: 0;
+    padding: 50px 0;
+}
+
+.cta-text h3, .cta-text p {
+    padding: 0;
+    margin: 0;
+}
+
+.cta-text h3 {
+    font-size: 26px;
+}
+
+.call-to-action button {
+    color: #E5E7EB;
+    flex-grow: 0;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    padding: 7px 36px;
+}
