@@ -1,1 +1,1 @@
-# landing-page
+A landing page layout created with flexbox
