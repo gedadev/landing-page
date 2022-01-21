@@ -25,6 +25,12 @@ body {
     text-decoration: none;
 }
 
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .hero a {
     padding: 0 15px;
 }
@@ -84,4 +90,44 @@ ul {
 .info {
     flex: 1;
     padding-right: 40px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 50px;
+}
+
+.information h2 {
+    width: 1000px;
+    text-align: center;
+}
+
+.media {
+    width: 800px;
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card p {
+    padding: 0 10px;
+    margin: 10px;
+    color: #1F2937;
+}
+
+.card-image {
+    width: 160px;
+    height: 160px;
+    border: #3b82f6;
+    border-style: solid;
+    border-radius: 10%;
+    border-width: 4px;
 }
